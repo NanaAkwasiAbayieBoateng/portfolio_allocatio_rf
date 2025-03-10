@@ -9,6 +9,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import time
 
+
+
 # **Fetch S&P 500 Tickers from Wikipedia**
 @st.cache_data
 def fetch_sp500_tickers():
